@@ -1,0 +1,146 @@
+
+@media screen and (min-width:1400px) {
+
+    .container {
+        max-width: 1320px;
+
+    }
+
+  
+}
+
+@media screen and (max-width:1400px) {
+
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .container {
+        max-width: 576px;
+    }
+}
+
+/*xsml*/
+@media screen and (max-width:576px) {
+
+    .container {
+
+        padding-inline: 15px;
+    }
+
+
+}
+
+
+
+
+/**********************navbar-****************************/
+
+@media screen and (max-width:992px) {
+
+    .menu-icon
+    {
+      display: block;
+    
+    }
+
+
+    
+.nav ul 
+{
+    display: none;
+  
+  
+}
+
+body:has(.nav-links:target) .nav ul 
+{
+
+    
+    
+        display: flex;
+         flex-direction: column;
+         background-color: var(--color-secondary);
+    
+         position: absolute;
+         top: 20%;
+        left: 0;
+        right: 0;
+          text-align: center;
+          margin: 20px;
+          border-radius: 8px;
+          padding-block: 10px;
+
+    
+}
+
+
+body:has(.nav-links:target) .nav ul li:not(:last-child){
+
+    border-bottom: 1px solid rgba(209, 196, 196,.3);
+}
+
+nav ul li a:hover 
+{
+    border: none;
+    border-radius: 0px;
+    color: var(--icon-color);
+ 
+}
+
+
+
+.active
+{
+    border: none;
+    border-radius: 0px;
+    color: var(--icon-color);
+ 
+}
+
+.weather-details .card
+{
+    width: 100%;
+
+
+
+  
+}
+
+
+.social-links .input-location
+{
+    width: 100%;
+}
+
+.social-links .links
+{
+    width: 100%;
+   
+
+
+
+}
+
+
+}
